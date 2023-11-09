@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hfppl"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+torch = "^2.1.0"
+numpy = "^1.26.1"
+transformers = "4.30"
+bitsandbytes = "^0.41.2.post1"
+accelerate = "^0.24.1"
+sentencepiece = "^0.1.99"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
